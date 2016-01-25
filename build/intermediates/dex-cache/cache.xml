@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Shavent2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-c5ea6c653770a08b41e581328f506fd9b2c3e40c.jar" />
+    </item>
+    <item
+        jar="F:\Shavent2\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
+        <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\classes-c43680727976fc4ec30b4b84546b674d19beae34.jar" />
+    </item>
+    <item
+        jar="F:\Shavent2\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
+        <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\classes-4251bfac6c253e3c601d5e1c25668d809a1d9c78.jar" />
+    </item>
+    <item
+        jar="F:\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-c082abb41dc8647fb78a8d5cf59a0f82b2a9055a.jar" />
+    </item>
+    <item
+        jar="F:\Shavent2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\classes-c03463cebe091faad7b922fac60cd2dedcccca60.jar" />
+    </item>
+    <item
+        jar="F:\Shavent2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\classes-f7aeb0e29477edaf3b742fe1b8defe5cbd4257d0.jar" />
+    </item>
+    <item
+        jar="F:\Shavent2\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\libs\zbar.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\zbar-7a30435c8189fe5da27e84ffd03275b690f2b497.jar" />
+    </item>
+
+</items>
