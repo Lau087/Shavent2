@@ -10,4 +10,12 @@
         android:id="@+id/scannerButton"
         android:layout_gravity="center_horizontal"
         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take picture"
+        android:id="@+id/picturesButton"
+        android:layout_gravity="center_horizontal"
+        />
 </LinearLayout>
