@@ -24,9 +24,6 @@
             android:name=".BarcodeScanner"
             android:label="@string/app_name" />
 
-        <activity
-            android:name=".ShaventActivity"
-            android:label="@string/app_name" />
 
     </application>
 

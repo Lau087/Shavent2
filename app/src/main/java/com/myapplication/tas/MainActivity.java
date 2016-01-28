@@ -1,7 +1,7 @@
 package com.myapplication.tas;
 
-import android.content.Intent;
 import android.os.CountDownTimer;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -20,11 +20,14 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    public void startAutomationActivity(){
-        Intent it = new Intent(this,ShaventActivity.class);
-        startActivity(it);
+    public void startShaventActivity(){
+        setContentView(R.layout.blank_layout);
+        final FragmentTransaction fragmentTransaction = getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.layout_container, new ShaventActivity(), new ShaventActivity().getClass().getName());
+
+        fragmentTransaction.commit();
         Count.cancel();
-        finish();
     }
 
 
@@ -37,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Reset of the game when the timeout goes to 0
             public void onFinish() {
-                startAutomationActivity();
+                startShaventActivity();
             }
         };
     }

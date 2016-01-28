@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="F:\Shavent2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jar="F:\Shavent2\app\build\intermediates\exploded-aar\com.github.carlonzo\StikkyHeader\0.0.3\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-c5ea6c653770a08b41e581328f506fd9b2c3e40c.jar" />
+        sha1="189265cf1ea1adaeb29223120b9454d97430895a">
+        <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\classes-b16c943443ba2e5dda880174a49777e39f01e70c.jar" />
     </item>
     <item
         jar="F:\Shavent2\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.2\jars\classes.jar"
@@ -14,6 +14,13 @@
         revision="23.0.1"
         sha1="96c83d4de6289a3f674165f896ac992564a7138d">
         <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\classes-c43680727976fc4ec30b4b84546b674d19beae34.jar" />
+    </item>
+    <item
+        jar="F:\Shavent2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\classes-c03463cebe091faad7b922fac60cd2dedcccca60.jar" />
     </item>
     <item
         jar="F:\Shavent2\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\classes.jar"
@@ -30,11 +37,18 @@
         <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-c082abb41dc8647fb78a8d5cf59a0f82b2a9055a.jar" />
     </item>
     <item
-        jar="F:\Shavent2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jar="F:\Shavent2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\classes-c03463cebe091faad7b922fac60cd2dedcccca60.jar" />
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\classes-ae30629ee3e0022d9fecc78c16a725999fff927c.jar" />
+    </item>
+    <item
+        jar="F:\Shavent2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="F:\Shavent2\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-c5ea6c653770a08b41e581328f506fd9b2c3e40c.jar" />
     </item>
     <item
         jar="F:\Shavent2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
