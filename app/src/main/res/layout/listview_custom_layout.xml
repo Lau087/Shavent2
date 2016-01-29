@@ -1,15 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="100dp"
+    android:layout_width="fill_parent"
+    android:id="@+id/new_variable_entered"
+    android:background="@drawable/listview_selector">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:gravity=""
+        android:src="@drawable/event_image"
+        android:id="@+id/event_image"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:id="@+id/list_item"
-        android:text="Hello world"
-        android:gravity="left|center_vertical"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:background="@drawable/listview_selector"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Event name"
+        android:textSize="20sp"
+        android:id="@+id/event_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/event_image" />
 
-</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="date and start hour"
+        android:textSize="15sp"
+        android:id="@+id/from_date"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/event_image"
+        android:layout_toRightOf="@+id/event_image" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/event_active"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="97dp"
+        android:background="#FFFFFF"></LinearLayout>
+</RelativeLayout>

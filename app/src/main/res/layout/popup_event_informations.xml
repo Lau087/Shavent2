@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/popup_event_infos"
+    android:background="#003366">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:src="@drawable/event_image"
+        android:id="@+id/pop_event_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+         />
+
+    <TextView
+    android:text="Event name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#cccccc"
+    android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/pop_event_image"
+        android:id="@+id/pop_event_name"/>
+
+    <TextView
+        android:text="Event time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#cccccc"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/pop_event_time"
+        android:layout_below="@+id/pop_event_name" />
+
+    <TextView
+        android:text="Event description:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#cccccc"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/pop_event_description"
+        android:layout_below="@+id/pop_event_time" />
+
+    <Button
+    android:text="Activate event"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/set_active"
+    android:layout_marginLeft="5dp"
+    android:layout_below="@+id/pop_event_description" />
+
+    <Button
+        android:text="Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_event"
+        android:layout_toRightOf="@+id/set_active"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/pop_event_description"
+        />
+    <Button
+        android:text="Close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/close"
+        android:layout_toRightOf="@+id/delete_event"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/pop_event_description"
+        />
+</RelativeLayout>

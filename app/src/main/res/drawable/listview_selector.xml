@@ -3,12 +3,22 @@
 
     <item
         android:state_pressed="true"
-        android:drawable="@color/colorAccent"
+        android:drawable="@color/colorPrimaryDark"
         ></item>
 
     <item
-        android:state_selected="true"
-        android:drawable="@color/colorAccent"
+    android:state_selected="true"
+    android:drawable="@color/colorPrimaryDark"
+    ></item>
+
+    <item
+        android:state_selected="false"
+        android:drawable="@color/navigationBarColor"
+        ></item>
+
+    <item
+        android:state_pressed="false"
+        android:drawable="@color/navigationBarColor"
         ></item>
 
 </selector>
