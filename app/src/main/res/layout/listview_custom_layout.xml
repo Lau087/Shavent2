@@ -51,6 +51,6 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="2dp"
-        android:layout_marginTop="97dp"
+        android:layout_marginTop="98dp"
         android:background="#FFFFFF"></LinearLayout>
 </RelativeLayout>

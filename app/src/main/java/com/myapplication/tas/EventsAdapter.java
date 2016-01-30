@@ -74,7 +74,7 @@ public class EventsAdapter extends ArrayAdapter{
         if(datasProvider.isEvent_active()){
             handler.event_active.setImageResource(R.drawable.v_green);
         }else{
-            //handler.event_active.setImageResource(R.drawable.v_black);
+            handler.event_active.setImageResource(R.drawable.event_not_active);
         }
 
         return row;

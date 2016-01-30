@@ -1,5 +1,6 @@
 package com.myapplication.tas;
 
+import android.content.Intent;
 import android.os.CountDownTimer;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -12,12 +13,18 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
-        create_counter();
-        Count.start();
+        //If the activity is launched from another activity bypass the home screen.
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            startShaventActivity();
+        }else {
+            setContentView(R.layout.activity_main);
+
+            create_counter();
+            Count.start();
+        }
     }
-
 
 
     public void startShaventActivity(){
@@ -27,7 +34,11 @@ public class MainActivity extends AppCompatActivity {
                 .replace(R.id.layout_container, new ShaventActivity(), new ShaventActivity().getClass().getName());
 
         fragmentTransaction.commit();
-        Count.cancel();
+        try {
+            Count.cancel();
+        }catch (java.lang.NullPointerException e){
+            e.printStackTrace();
+        }
     }
 
 
